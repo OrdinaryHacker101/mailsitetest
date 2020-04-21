@@ -8,7 +8,7 @@ socketio = SocketIO(app)
 
 @app.route('/')
 def sessions():
-    return render_template('session.html')
+    return render_template('index.html')
 
 def messageReceived(methods=['GET', 'POST']):
     print('message was received!!!')
